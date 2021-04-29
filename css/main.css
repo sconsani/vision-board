@@ -1,4 +1,82 @@
 body{
 	font-family: 'Montserrat', sans-serif;
 	/*font-family: 'Permanent Marker', cursive;*/
+	background-color: #e8e8e8;
+}
+
+
+#vision-board {
+	margin: 50px auto;
+	width: 1200px;
+	height: 850px;
+	overflow: auto;
+	background: url('../img/background.png');
+	background-size: cover;
+	background-repeat: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	text-transform: uppercase;
+
+}
+
+.block {
+	float: left;
+	width: 400px;
+	box-sizing: border-box;
+}
+
+.small-block {
+	height: 210px;
+	padding: 20px 40px;
+	margin: 0 auto;
+}
+
+.large-block {
+	height: 430px;
+	padding: 70px 40px;
+	margin: 0 auto;
+}
+
+.small-image {
+	height: 100px;
+	width: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;
+}
+
+.light-bg {
+	background-color: white;
+	color: black;
+}
+
+.dark-bg {
+	background-color: black;
+	color: white;
+}
+
+.vision-title {
+	color: #ea0cff;
+	font-size: 72px;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+	margin: 0;
+}
+
+.highlight {
+	background-color: yellow;
+	padding: 5px 15px;
+	font-size: 18px;
+}
+
+strong {
+	font-size: 38px;
+	text-transform: none;
+	line-height: 38px;
 }
